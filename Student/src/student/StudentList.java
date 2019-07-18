@@ -4,10 +4,17 @@ import java.text.*;
 import java.util.*;
 public class StudentList {
 	public static void main(String[] args) {
+            System.out.println("Student1");	
+            System.out.println("Student2");	
+            System.out.println("Student3");	
+            System.out.println("Student4");	
+            Scanner sc=new Scanner(System.in);
+            
 
 //		Check arguments
 		if(args[0].equals("a")) {
-			System.out.println("Loading data ...");			
+			System.out.println("Student1");	
+                        
 			try {
 			BufferedReader s = new BufferedReader(
 					new InputStreamReader(
